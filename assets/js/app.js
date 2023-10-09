@@ -25,7 +25,7 @@ const mycard =
         return `
         <div class="card bg-black">
         <img class="br_16" src=${postdata.Img} alt=""/>
-            <h2 class="head-font text-white mb-0 lh-1 pt-4">${postdata.heading}<span class="text_purple">${postdata.heading2}</span></h2>
+            <h2 class="head-font text-white mb-0 lh-1 pt-4 text-center">${postdata.heading}<span class="text_purple">${postdata.heading2}</span></h2>
             <p class="para-font text-white mb-0 lh-1 pt-2 w-100">${postdata.p}</p>
         </div>
         `
